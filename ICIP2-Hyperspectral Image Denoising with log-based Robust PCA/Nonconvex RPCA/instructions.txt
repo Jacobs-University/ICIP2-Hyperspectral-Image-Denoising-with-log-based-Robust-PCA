@@ -1,4 +1,11 @@
 To run the "inPainting.ipynb", please load the image matrices "moon.mat” and “msk.mat” from the “Example Data” folder beforehand.
 The "ToyExample.ipynb" generates data inside the script.
 
+The InPainting.ipynb and ToyExample.ipynb contains the following functions:
+1). RobustPCA(X, lamba, mu, tol, max_iter)
+2). Do(tau,X)
+3). So(tau,X)
+
+These three functions are implemented from the paper Robust PCA via Nonconvex Rank Approximation.
+
 Note: Due to code limitations we cannot use our own images since we have to make tiny changes to code accordingly. So, we recommend using the “moon.mat” file and the “msk.mat” file. Where, moon.mat is the original image of the moon and msk,mat is not noise that we are adding to it.
